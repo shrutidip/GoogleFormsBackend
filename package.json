@@ -2,9 +2,9 @@
   "name": "your-backend-app",
   "version": "1.0.0",
   "description": "Backend server for Windows Desktop Application",
-  "main": "dist/server.js",  // Adjust based on your project structure
+  "main": "dist/server.js",  
   "scripts": {
-    "start": "node dist/server.js",  // Adjust as per your entry file
+    "start": "node dist/server.js", 
     "dev": "nodemon --watch src --exec ts-node src/server.ts",  // Development script using nodemon
     "build": "tsc -p ."  // TypeScript compilation script
   },
